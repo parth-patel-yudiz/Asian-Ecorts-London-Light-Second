@@ -98,19 +98,19 @@
     --grey: #999;
     --darkgrey: #333;
     --light-grey: #4D4D4D;
-    --border-line: #1A1A1A;
+    --border-line: #1F3D1F;
     --dark-background-b-3: #0F0F0F;
     --dark-text-t-2: #F5F5F5;
     --dark-text-t-3: #655653;
     --dark-text-t-4: #B3B3B3;
 
-    --bg-color-1:#FAE8E0;
-    --light-theme-btn:#655653;
+    --bg-color-1:#E7F3E7;
+    --light-theme-btn:#162D16;
     --light-theme-red:#E00000;
     --light-theme-grey:#F6F4F4;
     --light-text-t-2:#D6D2DA;
-    --light-brown-b-1:#1C1817;
-    --light-brown-b-2:#2D2625;
+    --light-brown-b-1:#112211;
+    --light-brown-b-2:#162D16;
     --light-brown-b-3:#493E3C;
     --light-brown-b-5:#B1A3A0;
     --light-brown-b-6:#D1C7C7;
@@ -213,7 +213,7 @@ header.header-main .header-section-inner ul li a.nav-link:hover, header.header-m
 .find-your-companion-dropdown-filter-main .img-main .model-img {display:block; width: 100%; height: 100%; object-fit: cover; object-position: center center;position: absolute; top: 0; left: 0;} 
 .find-your-companion-dropdown-filter-inner .slick-track{margin-top:1px;margin-bottom:1px;padding: 40px 0 30px 0;}
 .find-your-companion-dropdown-filter-main .img-main:hover{border:8px solid var(--white);}
-.find-your-companion-dropdown-filter-main .img-main:hover { box-shadow: 0px 12px 24px 0px rgba(177, 163, 160, 0.80);-webkit-box-shadow: 0px 12px 24px 0px rgba(177, 163, 160, 0.80);}
+.find-your-companion-dropdown-filter-main .img-main:hover { box-shadow: 0px 12px 24px 0px rgba(22, 45, 22, 0.50);-webkit-box-shadow: 0px 12px 24px 0px rgba(22, 45, 22, 0.50);}
 .find-your-companion-dropdown-filter-main .countery { position: absolute; bottom:6%; right:6%; display: block; width: 40px; height: 22px; object-fit: cover; object-position: center center; } 
 .find-your-companion-dropdown-filter-main .vip-img { position: absolute; left:0; bottom:0; width: 91px; height: 91px; object-fit: cover; object-position: center center; }
 
@@ -297,7 +297,7 @@ header.header-main .header-section-inner ul li a.nav-link:hover, header.header-m
 .companions-section-main .title-content { padding-bottom: 40px; }
 .companions-section-card-main { display:flex; flex-wrap:wrap;gap: 24px; } 
 .companions-section-card-inner { width:calc(100% / 4 - 18px);  background: var(--white); transition: all 0.3s; -webkit-transition: all 0.3s; border-bottom:2px solid transparent;} 
-.companions-section-card-inner:hover{ box-shadow: 0px 12px 24px 0px rgba(177, 163, 160, 0.60); }
+.companions-section-card-inner:hover{ box-shadow: 0px 12px 24px 0px rgba(22, 45, 22, 0.50); }
 .companions-section-card-inner .image-main { position: relative; padding-top:131.9%; overflow: hidden; } 
 .companions-section-card-inner .image-main:hover img.main-img{ transform:scale(1.1); -webkit-transform:scale(1.1); }
 .companions-section-card-inner .image-main img.main-img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; object-fit: cover; object-position: center center; z-index: 0; transition: all 0.3s; -webkit-transition: all 0.3s; } 
@@ -367,7 +367,7 @@ header.header-main .header-section-inner ul li a.nav-link:hover, header.header-m
 .other-comanions-nearby-main-section  .heading-title-h2{ text-align:center; padding-bottom:40px; } 
 .other-comanions-nearby-inner-section{ display:grid; grid-template-columns:repeat(4,1fr); gap:24px; }
 .other-comanions-nearby-inner-section .other-comanions-nearby-loop{ background: var(--white); border-bottom: 2px solid transparent;transition: 0.5s all; } 
-.other-comanions-nearby-inner-section .other-comanions-nearby-loop:hover{ border-bottom: 2px solid var(--light-brown-b-1);box-shadow: 0px 12px 24px 0px rgba(177, 163, 160, 0.60); } 
+.other-comanions-nearby-inner-section .other-comanions-nearby-loop:hover{ border-bottom: 2px solid var(--light-brown-b-1);box-shadow: 0px 12px 24px 0px rgba(22, 45, 22, 0.50); } 
 .other-comanions-nearby-inner-section .other-comanions-nearby-loop .img-main{ position: relative; padding-top:118.1%; }
 .other-comanions-nearby-inner-section .other-comanions-nearby-loop img.countery { position: absolute; bottom: 2.6%; right: 2.6%; width: 40px; height: 22px; object-fit: cover; object-position: center center; } 
 .other-comanions-nearby-inner-section .other-comanions-nearby-loop img:first-child{ position:absolute; top:0; left:0; display:block; width:100%; height:100%; z-index:0;object-fit: cover;object-position: center center; }
